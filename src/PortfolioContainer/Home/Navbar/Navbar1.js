@@ -22,6 +22,7 @@ const Headers = styled.header`
 
 const Logo = styled.a`
   display: flex;
+  justify-content: center ;
   align-items: center;
   width: 2rem;
   height: auto;
