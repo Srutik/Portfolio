@@ -1,0 +1,135 @@
+.header-options button {
+  display: none;
+  margin-right: 50px;
+}
+
+.header-options #hidden {
+  display: flex;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  height: 149px;
+  color: var(--white);
+  /* position: sticky;
+  top: 0;
+  background-color: #1f2235;
+  overflow: hidden; */
+}
+
+.header-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 70%;
+}
+
+.header-hamburger {
+  display: none;
+  color: var(--white);
+}
+
+.header-logo {
+  font-size: 50px;
+  font-family: "Poppins ExtraBold";
+  color: var(--white);
+}
+
+
+
+.header-option {
+  margin: 0 50px 0 0;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.header-option:hover {
+  color: #4da8da;
+}
+
+.header-options {
+  display: flex;
+  align-items: center;
+}
+
+.header-options-active {
+    display: flex;
+    align-items: center;
+  }
+
+.header-options a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-options-active a {
+    text-decoration: none;
+    color: white;
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-icon {
+    display: none;
+}
+
+@media only screen and (max-width: 970px) {
+    .header-parent {
+      width: 100%;
+      justify-content: space-around;
+    }
+
+    .header-hamburger {
+      display: block;
+    }
+
+    .header-hamburger-bars {
+      font-size: 36px;
+      cursor: pointer;
+      margin: 0 10px;
+      color: var(--white);
+    }
+
+    .header-options {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      left: -100%;
+      transition: all 0.8s ease-out;
+      height: 100vh;
+      width: 100%;
+      justify-content: space-around;
+      background-color: #1f2235;
+      z-index: 1000;
+      opacity: 0.5;
+      align-items: center;
+    }
+
+    .header-options-active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        transition: all 0.8s ease-out;
+        margin-top: 850px;
+        height: 100vh;
+        width: 100vw;
+        background-image: url(../../../assets/Home/bg.jpg);
+        justify-content: space-around;
+        transition: all 0.5s ease-out;
+        opacity: 1;
+        z-index: 1000;
+        align-items: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .nav-icon {
+        display: block;
+        font-size: 40px;
+    }
+    
+}
