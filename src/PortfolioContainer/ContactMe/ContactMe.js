@@ -51,13 +51,13 @@ export default function ContactMe() {
         </div>
       </div>
 
-      <div class="central-form">
-        <div class="col">
-          <h2 class="title">
-            <p class="styles_typicalWrapper__1_Uvh">Get In Touch 📧</p>
+      <div className="central-form">
+        <div className="col">
+          <h2 className="title">
+            <p className="styles_typicalWrapper__1_Uvh">Get In Touch 📧</p>
           </h2>
           {/* <a href="https://web.facebook.com/?_rdc=1&amp;_rdr">
-                <i class="fa fa-facebook-square"></i>
+                <i className="fa fa-facebook-square"></i>
               </a>
               <a href="#">
                 <i class="fa fa-google-plus-square"></i>
@@ -72,21 +72,21 @@ export default function ContactMe() {
                 <i class="fa fa-twitter"></i>
               </a> */}
         </div>
-        <div class="back-form">
-          <div class="img-back">
+        <div className="back-form">
+          <div className="img-back">
             <h4>Send Your Email Here!</h4>
             <img src={BackImg} alt="Image not found" />
           </div>
           <form onSubmit={handleSubmit}>
             <p></p>
-            <label for="name">Name</label>
+            <label htmlFor="name">Name</label>
             <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder='Enter your name' />
-            <label for="email">Email</label>
+            <label htmlFor="email">Email</label>
             <input type="email" value={email} placeholder='Enter your email' onChange={(e) => setEmail(e.target.value)} />
-            <label for="message">Message</label>
+            <label htmlFor="message">Message</label>
             <textarea type="text" value={message} placeholder='Leave your massage here' onChange={(e) => setMessage(e.target.value)} ></textarea>
-            <div class="send-btn">
-              <button type="submit">send <i class="fa fa-paper-plane"></i></button>
+            <div className="send-btn">
+              <button type="submit">send <i className="fa fa-paper-plane"></i></button>
             </div>
           </form>
         </div>

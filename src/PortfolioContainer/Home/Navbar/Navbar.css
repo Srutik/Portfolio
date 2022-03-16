@@ -37,8 +37,6 @@
   color: var(--white);
 }
 
-
-
 .header-option {
   margin: 0 50px 0 0;
   font-size: 16px;
@@ -68,7 +66,7 @@
 .header-options-active a {
     text-decoration: none;
     color: white;
-  }
+}
 
 html {
   scroll-behavior: smooth;
@@ -130,6 +128,5 @@ html {
     .nav-icon {
         display: block;
         font-size: 40px;
-    }
-    
+    }  
 }

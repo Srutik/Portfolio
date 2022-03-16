@@ -7,24 +7,24 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   return (
     <>
-      <div class="header-container">
-        <div class="header-parent">
-          <div class="header-hamburger">
+      <div className="header-container">
+        <div className="header-parent">
+          <div className="header-hamburger">
           </div>
-          <div class="header-logo">
+          <div className="header-logo">
             <span>SRUTIK</span>
           </div>
-          <div class={click ? "header-options-active" : "header-options"}>
-            <a class="header-option" href="#" onClick={handleClick}>
+          <div className={click ? "header-options-active" : "header-options"}>
+            <a className="header-option" href="#" onClick={handleClick}>
               <span>Home</span>
             </a>
-            <a class="header-option" href="/#AboutMe" onClick={handleClick}>
+            <a className="header-option" href="/#AboutMe" onClick={handleClick}>
               <span>AboutMe</span>
             </a>
-            <a class="header-option" href="/#Resume" onClick={handleClick}>
+            <a className="header-option" href="/#Resume" onClick={handleClick}>
               <span>Resume</span>
             </a>
-            <a class="header-option" href='/#ContactMe' onClick={handleClick}>
+            <a className="header-option" href='/#ContactMe' onClick={handleClick}>
               <span>ContactMe</span>
             </a>
           </div>
