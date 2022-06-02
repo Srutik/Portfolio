@@ -31,7 +31,6 @@ export default function Education() {
                 </div>
             </div>
 
-
             <div className='resume-details-content'>
                 <div className='resume-highlight'>
                     <div className='resume-highlight-blob'></div>

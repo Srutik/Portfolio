@@ -9,20 +9,17 @@ export default function ContactMe() {
   const [message, setMessage] = useState("");
   const [sent, setSent] = useState(false);
 
-
-
   const handleSubmit = (event) => {
     event.preventDefault();
     let data = {name , email, message}
 
     axios.post('/api/form' ,data)
     .then(request => {
-      setSent(true)
-    },resetForm()).catch(() => {
-      console.log("Message not sent")
+      setSent(true)},resetForm())
+    .catch(() => {
+      console.log("Message not sent");
     })
   } 
-
 
   const resetForm = () => {
     setName("");
@@ -35,7 +32,7 @@ export default function ContactMe() {
   }
 
   return (
-    <div className='main-container fade-in' id="ContactMe" style={{ opacity: "5", Transform: "translateY(1px)" }} >
+    <div className='main-container fade-in' id="ContactMe" style={{ opacity: "5", Transform: "translateY(1px)" }}>
       <div className='heading-container'>
         <div className='screen-heading'>
           <span>Contact Me</span>
@@ -75,7 +72,7 @@ export default function ContactMe() {
         <div className="back-form">
           <div className="img-back">
             <h4>Send Your Email Here!</h4>
-            <img src={BackImg} alt="Image not found" />
+            <img src={BackImg} alt="Img not found" />
           </div>
           <form onSubmit={handleSubmit}>
             <p></p>

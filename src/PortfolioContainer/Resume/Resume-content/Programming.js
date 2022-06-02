@@ -1,5 +1,5 @@
 import React from 'react';
-import { easeQuadInOut } from 'd3-ease';
+// import { easeQuadInOut } from 'd3-ease';
 import { CircularProgressbarWithChildren, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
@@ -16,25 +16,22 @@ export default function Programming() {
                     <div className='skill-percent' style={{ "width": "90%" }}></div>
                 </div>
 
-
                 <div className='skill-list'>
                     <p>HTML</p>
-                    <p>75%</p>
-                </div>
-                <div className='skill'>
-                    <div className='skill-percent' style={{ "width": "75%" }}></div>
-                </div>
-
-                <div className='skill-list'>
-                    <p>CSS</p>
                     <p>80%</p>
                 </div>
                 <div className='skill'>
                     <div className='skill-percent' style={{ "width": "80%" }}></div>
                 </div>
+
+                <div className='skill-list'>
+                    <p>CSS</p>
+                    <p>85%</p>
+                </div>
+                <div className='skill'>
+                    <div className='skill-percent' style={{ "width": "85%" }}></div>
+                </div>
             </div>
-
-
 
             <div className='flex2'>
                 <div className='skills-heading'>Professional Skills</div>
@@ -83,7 +80,6 @@ export default function Programming() {
                             </div>
                         </div>
                     </div>
-
 
                     <div className='row-2'>
                         <div className='circle-bar'>
@@ -136,11 +132,9 @@ export default function Programming() {
                 <div className='skill'>
                     <div className='skill-percent' style={{ "width": "85%" }}></div>
                 </div> */}
-
+                
                 </div>
             </div>
-
-
         </div>
     )
 }

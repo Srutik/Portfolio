@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Interest() {
     return (
-        <div>
+        <div className='intrest-details'>
             <div className='resume-details-content'>
                 <div className='resume-highlight-i'>
                     <div className='resume-highlight-blob'></div>
@@ -35,7 +35,7 @@ export default function Interest() {
                     </div>
                 </div>
                 <div className='details-description'>
-                    I`M not a professional chef , but i love to experiment with food.
+                    I`m not a professional chef , but i love to experiment with food.
                 </div>
             </div>
         </div>

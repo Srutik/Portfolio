@@ -20,7 +20,6 @@ export default function Resume() {
         setToggleCard(index);
     }
 
-
     return (
         <div className="resume-container" id="Resume">
             <div className='resume-parent'>
@@ -98,10 +97,6 @@ export default function Resume() {
                     </div>
 
                 </div>
-
-
-
-
             </div>
         </div>
     )

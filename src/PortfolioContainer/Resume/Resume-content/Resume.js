@@ -14,7 +14,7 @@ export default function Resume() {
             <div className='resume-parent'>
                 <div className='heading-container'>
                     <div className='screen-heading'>
-                        <span>Resume</span>
+                        <span>Resumesss</span>
                     </div>
                     <div className='screen-sub-heading'>
                         <span>My Bio Details</span>
@@ -26,7 +26,6 @@ export default function Resume() {
                         </div>
                     </div>
                 </div>
-
 
                 <div className='resume-card-container'>
                     <div className='resume-part1'>
@@ -70,7 +69,6 @@ export default function Resume() {
                     <div className={toggleCard === 1 ? 'resume-details-card-active' : 'resume-details-card'}>
                         <Education />
                     </div>
-
 
                     <div className={toggleCard === 2 ? 'resume-details-card-active' : 'resume-details-card'}>
                         <WorkHistory />
